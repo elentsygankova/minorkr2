@@ -1,0 +1,51 @@
+[
+    {
+      "id": "1",
+      "title": "Свитер белый",
+      "vendor_code": "111",
+      "description": "70% шерсть, 30% хлопок",
+      "price": 6500,
+      "img": "свитер1.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Свитер в полосочку",
+      "vendor_code": "222",
+      "description": "50% шерсть, 50% хлопок",
+      "price": 7000 ,
+      "img": "свитер2.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Товар 3",
+      "vendor_code": "333",
+      "description": "Описание 3",
+      "price": 300,
+      "img": "свитер3.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Товар 4",
+      "vendor_code": "444e",
+      "description": "Описание 4",
+      "price": 400,
+      "img": "свитер4.jpg"
+    }
+    ,
+    {
+      "id": "5",
+      "title": "Товар 5",
+      "vendor_code": "4445e",
+      "description": "Описание 6",
+      "price": 400,
+      "img": "шапка1.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Товар 6",
+      "vendor_code": "4446e",
+      "description": "Описание 6",
+      "price": 400,
+      "img": "резинки.jpg"
+    }
+]
