@@ -17,35 +17,58 @@
     },
     {
       "id": "3",
-      "title": "Товар 3",
+      "title": "Свитер объемный",
       "vendor_code": "333",
-      "description": "Описание 3",
-      "price": 300,
+      "description": "50% шерсть, 50% акрил",
+      "price": 5600,
       "img": "свитер3.jpg"
     },
     {
       "id": "4",
-      "title": "Товар 4",
-      "vendor_code": "444e",
-      "description": "Описание 4",
+      "title": "Свитер яркий",
+      "vendor_code": "444",
+      "description": "20% шерсть, 80% хлопок",
       "price": 400,
       "img": "свитер4.jpg"
     }
     ,
     {
       "id": "5",
-      "title": "Товар 5",
-      "vendor_code": "4445e",
-      "description": "Описание 6",
+      "title": "Памамка",
+      "vendor_code": "4445",
+      "description": "100% хлопок",
       "price": 400,
       "img": "шапка1.jpg"
     },
     {
       "id": "6",
-      "title": "Товар 6",
-      "vendor_code": "4446e",
-      "description": "Описание 6",
-      "price": 400,
+      "title": "Резинки для волос",
+      "vendor_code": "4446",
+      "description": "Мягкие резинки",
+      "price": 600,
       "img": "резинки.jpg"
-    }
-]
+    },
+    {
+        "id": "7",
+        "title": "Сумка джинсовая",
+        "vendor_code": "4447",
+        "description": "Сумка на плечо",
+        "price": 4700,
+        "img": "сумка.jpg"
+      },
+      {
+        "id": "8",
+        "title": "Шарф звезодчка",
+        "vendor_code": "4446",
+        "description": "100% шерсть",
+        "price": 600,
+        "img": "шарф.jpg"
+      },
+      {
+        "id": "9",
+        "title": "Овечка",
+        "vendor_code": "5000",
+        "description": "Брелок",
+        "price": 550,
+        "img": "овечка.jpg"
+      }
