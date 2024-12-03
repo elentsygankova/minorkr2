@@ -2,3 +2,14 @@ body {
     background-color: #DCDCDC
 }
 
+.navbar-nav .nav-item.active .nav-link {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+ }
+
+
+ .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
