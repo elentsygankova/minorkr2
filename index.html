@@ -23,15 +23,15 @@
            </button>
            <div class="collapse navbar-collapse" id="navbarSupportedContent">
              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-               <li class="nav-item active">
+               <li class="nav-item">
                  <a class="nav-link" href="index.html">Home</a>
                </li>
-               <li class="nav-item">
+               <li class="nav-item active">
                  <a class="nav-link" href="shop.html">Shop</a>
                </li>
                <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Conatcts
+                    Contacts
                   </a>
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="ourcontacts.html">Our contacts</a></li>
@@ -39,6 +39,10 @@
                  </ul>
                </li>
              </ul>
+             <form class="d-flex" role="search">
+               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+               <button class="btn btn-outline-success" type="submit">Search</button>
+             </form>
            </div>
          </div>
        </nav>
@@ -46,45 +50,43 @@
 
    <main>
       <div class="wrapper">
+        <section>
+                <!--начало уникального содержания страницы-->
+                <div class="card-body">
+                  <h5 class='card-title text-center'>Магазин</h5>
+                  <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+                      <input name="q" type="hidden" value="search">
+                      <ul class="d-flex flex-row flex-wrap justify-content-around bg-light" id="node_for_insert">
+                      <!--начало генерируемого фрагмента кода -->
+                      </ul>
+                      <input class="btn btn-primary" type="Submit" value="В корзину">
+                  </form>
+              </div>
+              <!--окончание уникального содержания страницы-->
 
-      
-         <section>
-            <div class="container">
-               <div class="row align-items-center" >
-                  <div class="col-8">
-                     <h1>SMOL</h1>
-                     Мы — небольшая компания, специализирующаяся на создании уникальных вязаных изделий <br>
-                     Наши изделия создаются с любовью и вниманием к деталям, чтобы приносить радость
-                     <br>
-                     &bull;<br>
-                     &bull;<br>
-                     &bull;<br>
-                     &bull;<br>
-                     &bull;<br>
-
-                  </div>
-                  <div class="col-4">
-                     <img src="шарфглавная1.png" alt="Шарф" width="100%">
-                  </div>
-
-               </div>
-            </div>
-         </section>
+        </section>
       </div>
+
    </main>
 
+
+
+
+
+
    <footer class="bg-body-tertiary">
-      <div class="container">
-         <p>&copy; 2023 SMOL. All rights reserved.</p>
-      </div>
+    <div class="container">
+       <p>&copy; 2023 SMOL. All rights reserved.</p>
+    </div>
    </footer>
 
-   <script
-   src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-   integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+
+   <script 
+   src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+   integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
    crossorigin="anonymous">
    </script>
-
+   <script src="responce.js"></script>
 </body>
 
 </html>
