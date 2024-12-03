@@ -71,5 +71,14 @@
         "description": "Брелок",
         "price": 550,
         "img": "овечка.jpg"
+      },
+      {
+        "id": "10",
+        "title": "Броколи",
+        "vendor_code": "1010",
+        "description": "Брелок",
+        "price": 550,
+        "img": "броколи.jpg"
       }
+
 ]
