@@ -29,13 +29,13 @@
                <li class="nav-item">
                  <a class="nav-link" href="shop.html">Shop</a>
                </li>
-               <li class="nav-item dropdown">
+               <li class="nav-item dropdown active">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Contacts
                   </a>
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="ourcontacts.html">Our contacts</a></li>
-                    <li><a class="dropdown-item" href="feedback.html">Feedback</a></li>
+                    <li><a class="dropdown-item active" href="feedback.html">Feedback</a></li>
                  </ul>
                </li>
              </ul>
@@ -46,10 +46,125 @@
 
    <main>
     <div class="wrapper">
+        <br><br>
+
+        <section>
+            <h1 class="text-center">Feedback</h1>
+            <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+
+                <p><input type="hidden"  name="q" value="search"></p>
+                
+                <div class="row">
+                    <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" name="First name" value="" aria-label="First name">
+                    </div>
+                    <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name" name="Last name" value="" aria-label="Last name">
+                    </div>
+                </div>
+                <br>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"  name="email" value="" placeholder="name@example.com">
+                  </div>
+                  <br>
+
+                  <div class="mb-3">
+                    <label for="age" class="form-label">Your age</label>
+                    <input type="number" class="form-control" id="ade"  name="age" value="" min="1">
+                  </div>
+                  <br>
+
+
+                Оцените качество товара
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="quality" id="inlineRadio1" value="1" checked>
+                    <label class="form-check-label" for="inlineRadio1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="quality" id="inlineRadio2" value="2">
+                    <label class="form-check-label" for="inlineRadio2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="quality" id="inlineRadio3" value="3">
+                    <label class="form-check-label" for="inlineRadio3">3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="quality" id="inlineRadio4" value="4">
+                    <label class="form-check-label" for="inlineRadio4">4</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="quality" id="inlineRadio5" value="5">
+                    <label class="form-check-label" for="inlineRadio5">5</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="quality" id="inlineRadio6" value="6">
+                    <label class="form-check-label" for="inlineRadio6">6</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="quality" id="inlineRadio7" value="7">
+                    <label class="form-check-label" for="inlineRadio7">7</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="quality" id="inlineRadio8" value="8">
+                    <label class="form-check-label" for="inlineRadio8">8</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="quality" id="inlineRadio9" value="9">
+                    <label class="form-check-label" for="inlineRadio9">9</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="quality" id="inlineRadio10" value="10">
+                    <label class="form-check-label" for="inlineRadio10">10</label>
+                </div>
+                <br><br>
+                Что Вы бы хотели видеть среди наших товаров больше <br>
+
+                <input type="checkbox" class="btn-check" name="want" value="1" id="btn-check-1" checked autocomplete="off">
+                <label class="btn btn-outline-secondary" for="btn-check-1">Свитера</label>
+
+                <input type="checkbox" class="btn-check" name="want" value="2" id="btn-check-2" autocomplete="off">
+                <label class="btn btn-outline-secondary" for="btn-check-2">Шапки</label>
+                
+                <input type="checkbox" class="btn-check" name="want" value="3" id="btn-check-3" autocomplete="off">
+                <label class="btn btn-outline-secondary" for="btn-check-3">Кардиганы</label>
+
+                <input type="checkbox" class="btn-check"  name="want" value="4" id="btn-check-4" autocomplete="off">
+                <label class="btn btn-outline-secondary" for="btn-check-4">Брелки</label>
+
+                <input type="checkbox" class="btn-check" name="want" value="5" id="btn-check-5" autocomplete="off">
+                <label class="btn btn-outline-secondary" for="btn-check-5">Шарфы</label>
+
+                <input type="checkbox" class="btn-check"  name="want" value="6" id="btn-check-6" autocomplete="off">
+                <label class="btn btn-outline-secondary" for="btn-check-6">Сумки</label>
+                <br><br>
+
+
+                <div class="mb-3">
+                    <label for="Textarea" class="form-label"  >Example textarea</label>
+                    <textarea class="form-control" id="Textarea" name="response" value="" rows="3"></textarea>
+                </div>
+
+
+            
 
 
 
 
+                <br>
+                <input type="hidden" name="function" value="page">
+                <input type="hidden" name="page_id" value="3">
+
+                <br>
+                <input type="Reset" name="Reset" class="btn btn-outline-secondary" value="Обновить"> 
+                <input type="Submit" name="submit" class="btn btn-outline-secondary" value="Отправить"> </p>
+                </form>
+
+
+
+
+            </section>
     </div>
    </main>
 
