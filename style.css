@@ -23,11 +23,11 @@ body {
     min-height: 100vh;
   }
 
-  form, .task {
+form, .task, .shop_show {
     background-color: #dcdcdccd;
     padding: 20px;
     border-radius: 10px;
     margin: 20px auto;
     max-width: 800px;
   }
-
+  
