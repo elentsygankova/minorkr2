@@ -44,13 +44,24 @@ document.getElementById("searchInput").addEventListener("input", function() {
     renderProducts(filteredContent);
 });
 
-document.getElementById("sortByPrice").addEventListener("click", function() {
-    let sortedContent = content.slice().sort((a, b) => a.price - b.price);
-    renderProducts(sortedContent);
-});
+document.getElementById("sortSelect").addEventListener("change", function() {
+    let sortValue = this.value;
+    let sortedContent;
 
-document.getElementById("sortByTitle").addEventListener("click", function() {
-    let sortedContent = content.slice().sort((a, b) => a.title.localeCompare(b.title));
+    switch (sortValue) {
+        case "priceAsc":
+            sortedContent = content.slice().sort((a, b) => a.price - b.price);
+            break;
+        case "priceDesc":
+            sortedContent = content.slice().sort((a, b) => b.price - a.price);
+            break;
+        case "titleAsc":
+            sortedContent = content.slice().sort((a, b) => a.title.localeCompare(b.title));
+            break;
+        default:
+            sortedContent = content;
+    }
+
     renderProducts(sortedContent);
 });
 
