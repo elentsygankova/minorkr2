@@ -44,4 +44,14 @@ document.getElementById("searchInput").addEventListener("input", function() {
     renderProducts(filteredContent);
 });
 
+document.getElementById("sortByPrice").addEventListener("click", function() {
+    let sortedContent = content.slice().sort((a, b) => a.price - b.price);
+    renderProducts(sortedContent);
+});
+
+document.getElementById("sortByTitle").addEventListener("click", function() {
+    let sortedContent = content.slice().sort((a, b) => a.title.localeCompare(b.title));
+    renderProducts(sortedContent);
+});
+
 getResponse();
