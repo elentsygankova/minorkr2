@@ -78,6 +78,21 @@
         "description": "Брелок",
         "price": 550,
         "img": "броколи.jpg"
+    },
+     {
+        "id": "11",
+        "title": "утенок",
+        "vendor_code": "1111",
+        "description": "Брелок",
+        "price": 550,
+        "img": "утенок.jpg"
+    },
+    {
+        "id": "12",
+        "title": "Солнце",
+        "vendor_code": "1212",
+        "description": "Мягкая игрушка",
+        "price": 1000,
+        "img": "солнце.jpg"
     }
-
 ]
