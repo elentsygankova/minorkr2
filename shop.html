@@ -47,34 +47,36 @@
    <main>
       <div class="wrapper">
         <div class="container">
-          <section>
-            <br>
-            <div class="row">
-              <div class="col-md-6 d-flex align-items-center">
-                <form class="d-flex w-100" role="search">
-                  <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <div class="shop_show">
+            <section>
+              <br>
+              <div class="row">
+                <div class="col-8 d-flex align-items-center">
+                  <form class="d-flex w-100" role="search">
+                    <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  </form>
+                </div>
+                <div class="col-4 d-flex align-items-center">
+                  <select id="sortSelect" class="form-select w-100">
+                    <option selected>Сортировка</option>
+                    <option value="priceAsc">По возрастанию цены</option>
+                    <option value="priceDesc">По убыванию цены</option>
+                    <option value="titleAsc">По названию</option>
+                  </select>
+                </div>
+              </div>
+            </section>
+            <section>
+              <div class="card-body">
+                <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+                    <input name="q" type="hidden" value="search">
+                    <ul class="d-flex flex-row flex-wrap justify-content-around bg-light" id="node_for_insert">
+                    </ul>
+                    <input class="btn btn-outline-secondary" type="Submit" value="В корзину">
                 </form>
               </div>
-              <div class="col-md-6 d-flex align-items-center">
-                <select id="sortSelect" class="form-select w-100">
-                  <option selected>Сортировка</option>
-                  <option value="priceAsc">По возрастанию цены</option>
-                  <option value="priceDesc">По убыванию цены</option>
-                  <option value="titleAsc">По названию</option>
-                </select>
-              </div>
-            </div>
-          </section>
-          <section>
-            <div class="card-body">
-              <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
-                  <input name="q" type="hidden" value="search">
-                  <ul class="d-flex flex-row flex-wrap justify-content-around bg-light" id="node_for_insert">
-                  </ul>
-                  <input class="btn btn-outline-secondary" type="Submit" value="В корзину">
-              </form>
-            </div>
-          </section>
+            </section>
+          </div>
         </div>
       </div>
 
