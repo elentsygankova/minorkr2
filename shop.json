@@ -74,11 +74,11 @@
       },
       {
         "id": "10",
-        "title": "Броколи",
+        "title": "Утенок",
         "vendor_code": "1010",
         "description": "Брелок",
         "price": 550,
-        "img": "броколи.jpg"
+        "img": "утенок.jpg"
       }
 
 ]
