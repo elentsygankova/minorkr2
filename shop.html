@@ -30,7 +30,7 @@
                  <a class="nav-link" href="shop.html">Shop</a>
                </li>
                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                     Contacts
                   </a>
                   <ul class="dropdown-menu">
@@ -47,23 +47,29 @@
    <main>
       <div class="wrapper">
         <div class="container">
-
           <section>
             <br>
-            <form class="d-flex" role="search">
-              <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            </form>
+            <div class="row">
+              <div class="col-md-6 d-flex align-items-center">
+                <form class="d-flex w-100" role="search">
+                  <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+              </div>
+              <div class="col-md-6 d-flex align-items-center">
+                <select id="sortSelect" class="form-select w-100">
+                  <option selected>Сортировка</option>
+                  <option value="priceAsc">По возрастанию цены</option>
+                  <option value="priceDesc">По убыванию цены</option>
+                  <option value="titleAsc">По названию</option>
+                </select>
+              </div>
+            </div>
           </section>
           <section>
-            <div class="sort-buttons">
-              <button id="sortByPrice" class="btn btn-primary">Сортировать по цене</button>
-              <button id="sortByTitle" class="btn btn-primary">Сортировать по названию</button>
-            </div>
             <div class="card-body">
               <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
                   <input name="q" type="hidden" value="search">
                   <ul class="d-flex flex-row flex-wrap justify-content-around bg-light" id="node_for_insert">
-                  <!--начало генерируемого фрагмента кода -->
                   </ul>
                   <input class="btn btn-outline-secondary" type="Submit" value="В корзину">
               </form>
@@ -76,9 +82,9 @@
 
    <footer class="bg-body-tertiary">
     <div class="container">
-       <p>&copy; 2023 SMOL. All rights reserved.</p>
+       <p class="text-center">&copy; 2024 SMOL</p>
     </div>
-   </footer>
+ </footer>
 
    <script
    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
