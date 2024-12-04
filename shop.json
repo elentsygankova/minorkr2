@@ -79,6 +79,22 @@
         "description": "Брелок",
         "price": 550,
         "img": "утенок.jpg"
+      },
+     {
+        "id": "11",
+        "title": "Губастик",
+        "vendor_code": "1111",
+        "description": "Брелок",
+        "price": 550,
+        "img": "губастик.jpg"
+      },
+     {
+        "id": "12",
+        "title": "Солнышко",
+        "vendor_code": "1212",
+        "description": "Мягкая игрушка",
+        "price": 1000,
+        "img": "солнце.jpg"
       }
 
 ]
