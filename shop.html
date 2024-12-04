@@ -46,27 +46,31 @@
 
    <main>
       <div class="wrapper">
-        <section>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </section>
-        <section>
-                <!--начало уникального содержания страницы-->
-                <div class="card-body">
-                  <h5 class='card-title text-center'>Магазин</h5>
-                  <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
-                      <input name="q" type="hidden" value="search">
-                      <ul class="d-flex flex-row flex-wrap justify-content-around bg-light" id="node_for_insert">
-                      <!--начало генерируемого фрагмента кода -->
-                      </ul>
-                      <input class="btn btn-outline-secondary" type="Submit" value="В корзину">
-                  </form>
-              </div>
-              <!--окончание уникального содержания страницы-->
+        <div class="container">
 
-        </section>
+          
+          <section>
+            <br><br>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </section>
+          <section>
+                  <!--начало уникального содержания страницы-->
+                  <div class="card-body">
+                    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+                        <input name="q" type="hidden" value="search">
+                        <ul class="d-flex flex-row flex-wrap justify-content-around bg-light" id="node_for_insert">
+                        <!--начало генерируемого фрагмента кода -->
+                        </ul>
+                        <input class="btn btn-outline-secondary" type="Submit" value="В корзину">
+                    </form>
+                </div>
+                <!--окончание уникального содержания страницы-->
+
+          </section>
+        </div>
       </div>
 
    </main>
