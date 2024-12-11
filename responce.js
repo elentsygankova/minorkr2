@@ -40,6 +40,7 @@ document.getElementById("searchInput").addEventListener("input", function() {
     let searchValue = this.value.toLowerCase();
     let filteredContent = content.filter(item =>
         item.title.toLowerCase().includes(searchValue)
+        item.price.include(searchValue)                                       
     );
     renderProducts(filteredContent);
 });
